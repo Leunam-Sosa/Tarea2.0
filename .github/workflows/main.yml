@@ -16,7 +16,7 @@ jobs:
     - name: Build and Deploy
       run: |
         # Instalar Surge
-        npm install --global surge
+        npm ci --global surge
 
         # Configurar Surge con la API Key
         surge token <SURGE_API_KEY> # Reemplaza <SURGE_API_KEY> con tu API Key de Surge
